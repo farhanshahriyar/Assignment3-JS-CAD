@@ -20,6 +20,7 @@ function part1(){
         }
         return encoded;
     }
+    
 
     document.write('<p><b>Encoded Student ID: </b>' + encodeStr(studentId) + ' <b>Encoded Full Name: </b>' + encodeStr(fullName) + '<br>');
     document.write('<b>Encoded Lab Professor: </b>' + encodeStr(professorName) + ' <b>Encoded Lab Session Day: </b>' + encodeStr(labDay) + '</p>');
